@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python normalize_images.py:*)",
+      "Bash(python remove_printed_text.py:*)",
+      "Bash(python remove_printed_text_v2.py:*)",
+      "Bash(pip install:*)"
+    ]
+  }
+}
