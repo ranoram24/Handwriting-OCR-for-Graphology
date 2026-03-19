@@ -4,7 +4,10 @@
       "Bash(python normalize_images.py:*)",
       "Bash(python remove_printed_text.py:*)",
       "Bash(python remove_printed_text_v2.py:*)",
-      "Bash(pip install:*)"
+      "Bash(pip install:*)",
+      "Bash(python3 -c \"import PIL; print\\(''''PIL ok''''\\)\")",
+      "Bash(python3 -:*)",
+      "Bash(python3 -m pip install numpy pillow)"
     ]
   }
 }
