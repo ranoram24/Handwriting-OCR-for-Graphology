@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "hebrew-handwriting-491616",
+  "private_key_id": "45412d8b5b7bb0c6129fe0409eb22ad7cf4cc380",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDtigSNXSR5hxlV\nb0FzMRG3vCcgiArDILTC/VAWtEYvbBqPOaVdUuW/+gUJoGcF7lF9WGeLg7ykRlD1\nnOkuvk45WtO5Ck961ygNKR6ACDXJtIndvOzaQwrvzpjEXoTujQFmGfykt3+hOBve\n7J7Qcfl1HKD71bB8yGnmXAwhehijgMPUBCQ8Rhv6M6tHTe9pP1mOe1DzaFA7r/NZ\nZxmIHeIQs9oorD/oq4A+cvHLdUm6broUCUc7exUzYPiqEvg4RzCV3dBplyt0CwvS\nQTZu4RJUFhiJPUMSzQEH0DbzpKKZGkh7NfiTQxBGStOG9JVc49cGPfFeA03WbOj1\nL3BcCBepAgMBAAECggEAGUdzZZHwhEhm30s4RWiG8K1C4rjnoE12PzwTDl+ACqLw\nDqb9XLmqPqx+ZcBexmhO3s6OMnBCHp9nFURuIm3ZSExMtOgOfk2wcvoZx1lYVA91\nDpaBBFdXLh8n7dn7PqHd8L46P1NR71fXy3kWC6vdduOllDdxEU6Iyp2oItXqElg4\nwMeRSXtpfFRURDtlhJ0fmcELh/wV8GscdQoeZfC+TGgl5KdcHcZiEFdyMvL4WRUH\nuu7kWc7bzexsi2yq7Jp2DTPIyOfPQNfMcdatUfNmBFo4vhcNivbTxMTbL9bMUoVf\nGINDIE6Vg3Bd6Nk5b4xwc3dNK/zPyzPnIPsVf81rKQKBgQD6WJUdxT8jU9XJxlgx\nFw2VVsmRHf6E5mupZ3vFg2AsDVQt2U25ep+n8hsM1KhAmYR9SOg4GusSMZuIOKoh\nFB15Gr4nrWe2leDM8U2CPXRAlYOq8DIzp9+NdOEbgTNPoL82ogma0g7flgj4R5tZ\nepkxlYYQRHjTaJJich68codz7QKBgQDy52PdTF5ZW+rJ06Hc7sqsFqLReCjY6fBn\nYIJRK/SO3JQPBHaOnDP4NIDDmlpSOZXXRLXeoeKq53tjRXvqDYUkvwQOrTl9UqDn\nHJfmA/6TnJxojsqn+2KpKPF+orEvZCIeDppUaSP5HbdkUJ0JRqEybaAzDT7M3krn\nhyZqI5KzLQKBgFvSve8LeBsXFuVJcPOghwTtrkUiAUbx1S9vm4BYrZ+6y9N9Tvrn\nNUQ+kxljrsrzBBuH8FUT2oDz3R5b2lsDq8PNwU2AVvgrhSbmow1QSSGfNYovS9qS\ninayFhcmjpF4XmpFiMxWm8n6mBOpABwT0bjUJTY2RzMTug2N2iQ4xeIJAoGBAJC1\nHv5gl7i+lLJmPQDE1cMNvTPzVMpdHBZKHXjEKe7OI/qKWyL8lc1hYfClzPc9TTIw\nwfR/Fu1f+FcctwSpx08r6PvhYOVzS15D345thMVlwJxdrQfEMHO8a5pYzBwCmHy1\nkGWHOaIYfP/rMpKrHC9RteWUF3yvVYp3LoB+7s+FAoGBAOrZKgQNmVAx9bmHN5Pd\n9pfWxtdeMxrnRhWcAGEXnDYVad8aw407XCh9V30UVv1r2Rjx5DtWnECU7t/JGIpU\nTamD3H474iB4yZK7pHYxkGn2JARQZ23kRS7J9HX1q9SYo0ViwAVd0rLdEUu+Saei\nqOn1a42AHKhDZWUr159NDoSk\n-----END PRIVATE KEY-----\n",
+  "client_email": "handwriting-segmentation@hebrew-handwriting-491616.iam.gserviceaccount.com",
+  "client_id": "110267404205473422536",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/handwriting-segmentation%40hebrew-handwriting-491616.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
