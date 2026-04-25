@@ -1,0 +1,40 @@
+# Build command (run from the project root folder):
+#   docker build -f dockerFile -t hebhtr .
+#
+FROM ubuntu:18.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+# System dependencies
+RUN apt-get update && apt-get install -y \
+    python3.6 \
+    python3-pip \
+    python3.6-dev \
+    libsm6 \
+    libxext6 \
+    libxrender-dev \
+    libglib2.0-0 \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+# Make python3.6 the default python
+RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.6 1 \
+    && update-alternatives --install /usr/bin/pip pip /usr/bin/pip3 1
+
+# Python dependencies
+RUN pip install --upgrade pip && \
+    pip install \
+    tensorflow==1.12.0 \
+    numpy==1.16.4 \
+    opencv-python-headless
+
+# Clone the HebHTR repo
+RUN git clone https://github.com/Lotemn102/HebHTR /app
+
+WORKDIR /app
+
+# The TFWordBeamSearch.so is already compiled for Linux x86_64 in the repo
+# Verify it's present
+RUN test -f TFWordBeamSearch.so || (echo "ERROR: TFWordBeamSearch.so not found" && exit 1)
+
+CMD ["python", "-c", "from HebHTR import *; print('HebHTR ready')"]
